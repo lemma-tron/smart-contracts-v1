@@ -10,7 +10,7 @@ import "@pancakeswap/pancake-swap-lib/contracts/access/Ownable.sol";
  * @title PresaleLemaRefundVault
  * @dev This contract is used for storing funds while a presale
  * is in progress. Supports refunding the money if presale fails,
- * and forwarding it if presale is successful.
+ * and forwarding it if presale succeeds.
  */
 contract PresaleLemaRefundVault is Ownable {
     using SafeMath for uint256;
